@@ -11,10 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     private let mainLabel: UILabel = {
         let label = UILabel()
-        label.text = "A의 라벨입니다"
+        label.text = "B의 라벨입니다"
         label.textAlignment = .center
-        label.font = .boldSystemFont(ofSize: 30)
-        label.textColor = .red
+        label.font = .systemFont(ofSize: 40)
+        label.textColor = .blue
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
